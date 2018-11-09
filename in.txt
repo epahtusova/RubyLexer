@@ -1,0 +1,6 @@
+def iterator
+    yield 'yield, '
+    	yield 'blocks,'
+	yield 'Ruby'
+end
+iterator {|yeilded| print "use #{yeilded}"}
